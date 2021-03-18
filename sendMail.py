@@ -9,7 +9,7 @@ server.ehlo()
 server.starttls()
 
 email = input("Enter your Gmail: ")
-password = input('Enter your app password!')
+password = input("Enter your app password: ")
 server.login(email, password)
 
 from_address = email
